@@ -1,0 +1,145 @@
+/* Theme: Cotton Beige + Cocoa Brown */
+
+body {
+
+  font-family: Arial, sans-serif;
+
+  margin: 0;
+
+  background-color: #f5f5dc; /* Cotton Beige */
+
+  color: #3e2723; /* Cocoa Brown */
+
+}
+
+/* Header */
+
+header {
+
+  background-color: #3e2723;
+
+  color: white;
+
+  text-align: center;
+
+  padding: 15px;
+
+}
+
+header nav a {
+
+  color: #f5f5dc;
+
+  margin: 0 10px;
+
+  text-decoration: none;
+
+  font-weight: bold;
+
+}
+
+header nav a:hover {
+
+  text-decoration: underline;
+
+}
+
+/* Profile image */
+
+.profile-img {
+
+  width: 150px;
+
+  height: 150px;
+
+  border-radius: 50%;
+
+  display: block;
+
+  margin: 15px auto;
+
+  border: 3px solid #3e2723;
+
+}
+
+/* Card Style */
+
+.card {
+
+  background: #fff;
+
+  border: 2px solid #3e2723;
+
+  border-radius: 12px;
+
+  padding: 20px;
+
+  margin: 20px;
+
+  box-shadow: 0 4px 8px rgba(62, 39, 35, 0.2);
+
+}
+
+/* Button */
+
+.btn {
+
+  background-color: #3e2723;
+
+  color: white;
+
+  padding: 10px 20px;
+
+  border: none;
+
+  border-radius: 8px;
+
+  cursor: pointer;
+
+}
+
+.btn:hover {
+
+  background-color: #6d4c41;
+
+}
+
+/* Fade-in animation */
+
+.fade-in {
+
+  opacity: 0;
+
+  transform: translateY(20px);
+
+  animation: fadeInUp 1s ease forwards;
+
+}
+
+@keyframes fadeInUp {
+
+  to {
+
+    opacity: 1;
+
+    transform: translateY(0);
+
+  }
+
+}
+
+/* Footer */
+
+footer {
+
+  text-align: center;
+
+  background-color: #3e2723;
+
+  color: white;
+
+  padding: 10px;
+
+  margin-top: 20px;
+
+}
